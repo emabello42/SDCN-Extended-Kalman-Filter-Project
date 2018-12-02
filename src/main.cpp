@@ -123,7 +123,6 @@ int main()
     	  estimate(3) = v2;
     	  
     	  estimations.push_back(estimate);
-
     	  VectorXd RMSE = tools.CalculateRMSE(estimations, ground_truth);
 
           json msgJson;
